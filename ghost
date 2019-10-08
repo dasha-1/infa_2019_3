@@ -34,7 +34,7 @@ def dom(x, y, r, g, b):
     rectangle(90 + x, 350, 120 + x, 400 + y)
 
 
-def ghost(x, y, r, g, b, size):
+def ghost(x, y, r, g, b):
     brushColor(r, g, b)
     a = polygon([(350 + x, 400 + y), (355 + x, 410 + y),
                  (360 + x, 405 + y), (365 + x, 410 + y),
@@ -62,7 +62,7 @@ rectangle(0, 0, 500, 300)
 
 dom(0, 0, 0, 0, 0)
 brushColor(176, 196, 222)
-a = ghost(-100, -100, 33, 232, 33, 1)
+a = ghost(-100, -100, 33, 232, 33)
 penColor(255, 255, 254)
 brushColor(255, 255, 254)
 circle(460, 50, 40)
