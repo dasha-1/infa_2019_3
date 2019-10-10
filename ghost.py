@@ -80,9 +80,7 @@ def update():
     moveObjectBy(a, 1, 1)
     moveObjectBy(c, 1, 1)
     moveObjectBy(s, 1, 1)
-    l = 0
     changeFillColor(a, randColor())
-    l = l + 1
     if xCoord(a) >= 500:
         close()
 
