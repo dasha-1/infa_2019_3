@@ -1,7 +1,7 @@
-from graph import brushColor, polygon, penColor, rectangle, circle, moveObjectBy,
-changeFillColor, windowSize, canvasSize, onTimer, run, randColor, xCoord
 import math
 import random
+from graph import brushColor, polygon, penColor, rectangle, circle, moveObjectBy,
+                  changeFillColor, windowSize, canvasSize, onTimer, run, randColor, xCoord
 
 
 def el(x, y, r, g, b):
