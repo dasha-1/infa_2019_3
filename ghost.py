@@ -1,6 +1,6 @@
 import math
 from graph import (brushColor, polygon, penColor, rectangle, circle, moveObjectBy, changeFillColor, windowSize,
-                   canvasSize, onTimer, run, randColor, xCoord)
+                   canvasSize, onTimer, run, randColor, xCoord, close)
 
 
 def el(x, y, r, g, b):
